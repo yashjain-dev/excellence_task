@@ -1,15 +1,17 @@
-{
+
   "name": "task",
   "version": "1.0.0",
   "description": "API to manage candidate and test_score",
   "main": "index.js",
   "scripts": {
+    "start" : "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.12.11"
+    "mongoose": "^5.12.11",
+    "url": "^0.11.0"
   }
 }
